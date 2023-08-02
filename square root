@@ -1,0 +1,8 @@
+#include<stdio.h>
+#include<math.h>
+int main(){
+	int a;
+	printf("enter the number that to be squared: ");
+	scanf("%d",&a);
+	printf("square root of number: %d is %0.5f",a,(sqrt(a)));
+}
