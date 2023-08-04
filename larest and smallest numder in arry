@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main(){
+	int a[100],max,min,n;
+	printf("enter the numberr to be executed: ");
+	scanf("%d",&n);
+	printf("\n enter the values: ");
+	for(int i=0;i<n;i++){
+		scanf("%d",&a[i]);
+	}
+	max=a[0];
+	min=a[0];
+	for(int i=0;i<n;i++){
+		if(max<a[i]){
+			max=a[i];
+		}
+		else if(min>a[i]){
+			min=a[i];
+		}
+	}
+	printf("maximum number: %d",max);
+	printf("\nminimum number: %d",min);
+}
