@@ -1,0 +1,15 @@
+#include<iostream>
+#include<string.h>
+using namespace std;
+int main(){
+	char a[100];
+	string rev;
+	gets(a);
+	rev=a;
+	if(rev==strrev(a)){
+		cout<<"it is palindrome";
+	}
+	else{
+		cout<<"it is not palindrome";
+	}
+}
